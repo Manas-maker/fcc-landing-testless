@@ -1,21 +1,30 @@
 body {
     display: flex;
     flex-direction: column;
+    font-size: larger;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #nav {
     display: flex;
     padding: 0px;
     margin: 0px;
+    list-style: none;
+    gap: 16px;
+    align-items: center;
 }
 
 @media(min-width: 400px) {
     video {
         width: 100%;
     }
+}
+
+#header-img {
+    width: 60px;
 }
