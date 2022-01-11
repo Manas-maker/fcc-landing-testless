@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media(min-width: 400px) {
+    video {
+        width: 100%;
+    }
+}
