@@ -28,3 +28,19 @@ header {
 #header-img {
     width: 60px;
 }
+
+.icon {
+    max-width: 99px;
+}
+
+.feature-span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#features {
+    display: flex;
+    gap: 8px;
+}
