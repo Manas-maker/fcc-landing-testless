@@ -4,12 +4,16 @@ body {
     font-size: 1.6em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(222, 184, 135, 0.1);
+    margin: 0px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(222, 184, 135, 1);
 }
 
 #nav {
