@@ -1,7 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    font-size: larger;
+    font-size: 1.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(222, 184, 135, 0.1);
 }
 
 header {
@@ -19,14 +21,15 @@ header {
     align-items: center;
 }
 
-@media(min-width: 400px) {
-    video {
+@media(max-width: 315px) {
+    #video {
         width: 100%;
     }
 }
 
 #header-img {
     width: 60px;
+    padding-left: 60px;
 }
 
 .icon {
@@ -35,12 +38,48 @@ header {
 
 .feature-span {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    gap: 64px;
+    justify-content: flex-start;
     align-items: center;
 }
 
-#features {
+section {
+    margin: auto;
     display: flex;
-    gap: 8px;
+    gap: 32px;
+    flex-direction: column;
+    width: 40vw;
+    padding: 64px
+}
+
+#about {
+    width: 70vw;
+}
+
+#form-sect {
+    background-color: cyan;
+    border-radius: 5px;
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    border-style: none;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+#email {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

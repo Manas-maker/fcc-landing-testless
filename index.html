@@ -8,13 +8,14 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_de_Enron.svg/1024px-Logo_de_Enron.svg.png" alt="company-logo" id="header-img">
         <nav id="nav-bar">
             <ul id="nav">
-                <li>Video</li>
-                <li>About Us</li>
-                <li>Learn More</li>
+                <li><a href="#video-sect" class="nav-link">Video</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#form-sect" class="nav-link">Learn More</a></li>
             </ul>
         </nav>
     </header>
@@ -37,7 +38,7 @@
                 Turn insights into action
             </span>
         </span>
-        <span>
+        <span class="feature-span">
             <span class="feature-icon">
                 <img src="dollar.png" class="icon">
             </span>
@@ -47,15 +48,20 @@
             </span>
         </span>
     </section>
-    <h2></h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yROLDTA8hkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="video-sect">
+    <h2>Our Latest Release</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yROLDTA8hkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+    </section>
+    <section id="about">
     <h2>About Us</h2>
     <p>Enron Corporation is an American energy, commodities, and services company based in Houston, Texas. It was founded by Kenneth Lay in 1985 as a merger between Lay's Houston Natural Gas and InterNorth, both relatively small regional companies.Enron employs approximately 29,000 staff and is a major electricity, natural gas, communications, and pulp and paper company with revenues of nearly $101 billion. Fortune named Enron "America's Most Innovative Company" for six consecutive years.</p>
-    <div>
+    </section>
+    <section id="form-sect">
+        <h4>Sign Up to keep up with news related to Enron!</h2>
         <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <input type="email" placeholder="Enter your email address">
-            <input type="submit" value="">
+            <input type="email" placeholder="Enter your email address" id="email">
+            <input type="submit" id="submit">
         </form>
-    </div>
+    </section>
 </body>
 </html>
